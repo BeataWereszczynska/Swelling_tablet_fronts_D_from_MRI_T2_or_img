@@ -7,7 +7,7 @@ Tool for characterizing the swelling of tablets immersed in a solution. Creates 
 - short introduction to the topic in which the software can be usefull,
 - input parameters and their meanings,
 - how the code works step by step,
-- presentation of sample results with commentary.
+- sample results with commentary.
 3. EXE file for non-coders D_from_T2maps_vB_win10.exe (compiled for Windows 10) that can be used simply by double-clicking, taking input parameters from an input file. This program only accepts Text Images as an input (I had troubles compyling a script utilizing itk - python library enabling FDF import). HINT: Most of image files can be converted to Text Image format using ImageJ (https://imagej.nih.gov/ij/download.html). To import FDF files by ImageJ you'll need Multi FDF Opener plugin (https://imagej.nih.gov/ij/plugins/multi-opener.html).
 4. Python script used for creating the EXE file: D_from_T2maps_vB.py.
 5. Sample input file for D_from_T2maps_vB: INPUT-D_from_T2maps_vB.txt.
