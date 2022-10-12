@@ -1,9 +1,0 @@
-""" input file for D_from_T2maps_vB """
-
-maps_path = "MRI_TXTimages"                      # Path to T2 maps (or MRI images)[str]
-pixel_size = 0.3125                              # Size of a pixel in mm [float]
-roi = ((66, 55), (69, 76))                       # Region of interest [tuple, ((x1,y2),(x2,y1))]
-out_folder = "D_results"                         # Output folder [str]
-aver_axis = 1                                    # averaging direction (0 - average rows, 1 - average collumns of ROI)
-fit_range_D = (0, 13)                            # Range of data for D function fitting: fit_range_D [tuple (start_point, stop_point)]
-fit_range_k = (0, 16)                            # Range of data for k function fitting: fit_range_k [tuple (start_point, stop_point)]
