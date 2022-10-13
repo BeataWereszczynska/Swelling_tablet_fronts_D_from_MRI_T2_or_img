@@ -15,5 +15,5 @@ Tool for characterizing the swelling of tablets immersed in a solution. Creates 
 7. Sample MRI-derived T<sub>2</sub>-maps in Image File format in the MRI_TXTimages folder.
 8. Sample results in D_results folder.
 
-## License
+## License:
 The software is licensed under the MIT license. The non-software content of this project is licensed under the Creative Commons Attribution 4.0 International license. See the LICENSE file for license rights and limitations.
