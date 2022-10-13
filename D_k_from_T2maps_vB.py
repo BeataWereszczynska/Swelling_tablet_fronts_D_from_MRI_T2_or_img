@@ -20,7 +20,7 @@ import pymsgbox
 # reading input parameters from the input file
 exec(open('INPUT-D_k_from_T2maps_vB.txt').read())
 
-def D_from_T2maps():
+def D_k_from_T2maps():
     """
     Calculates swelling tablet front's diffusion rate D and rate of the swelling k 
     from time series of T2 maps (or MRI images) in Text Image format.
@@ -175,7 +175,7 @@ def D_from_T2maps():
         
 
 def main():
-    D_from_T2maps()
+    D_k_from_T2maps()
     
     pymsgbox.alert(text=f'Results saved in the output folder ({out_folder}).', \
                    title='D_from_T2maps_vB', button='Close this window')

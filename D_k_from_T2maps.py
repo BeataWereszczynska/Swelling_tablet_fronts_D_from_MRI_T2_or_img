@@ -5,7 +5,7 @@ from time series of T2 maps (or MRI images) in FDF or Text Image format.
 Version A: taking input parameters simply from main() function (not using input file).
 
 Created on Thu Oct 6 2022
-Last modified on Wed Oct 12 2022
+Last modified on Thu Oct 13 2022
 @author: Beata Wereszczyńska
 """
 import os
@@ -17,7 +17,7 @@ from matplotlib.patches import Rectangle
 import pandas as pd
 from scipy.optimize import curve_fit
 
-def D_from_T2maps(maps_path, file_type, pixel_size, roi, aver_axis, fit_range_D, fit_range_k, out_folder):
+def D_k_from_T2maps(maps_path, file_type, pixel_size, roi, aver_axis, fit_range_D, fit_range_k, out_folder):
     """
     Calculates swelling tablet front's diffusion rate D and rate of the swelling k 
     from time series of T2 maps (or MRI images) in FDF or Text Image format.
@@ -177,7 +177,7 @@ def main():
     # maps_path = "MRI_TXTimages"
     # file_type = 0
     
-    D_from_T2maps(maps_path, file_type, pixel_size, roi, aver_axis, fit_range_D, fit_range_k, out_folder)
+    D_k_from_T2maps(maps_path, file_type, pixel_size, roi, aver_axis, fit_range_D, fit_range_k, out_folder)
 
 
 if __name__ == "__main__":
