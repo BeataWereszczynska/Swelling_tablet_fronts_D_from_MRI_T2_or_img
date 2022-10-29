@@ -3,7 +3,7 @@ Tool for characterizing the swelling of tablets immersed in a solution. Creates 
 
 ## The repository contains:
 1. Python script D_k_from_T2maps.py - the main version of the software.
-2. (COMMING SOON) Jupyter notebook file presenting:
+2. Jupyter notebook file notebook_D_k_from_T2maps.ipynb presenting:
 - short introduction to the topic in which the software can be usefull,
 - input parameters and their meanings,
 - how the code works step by step,
