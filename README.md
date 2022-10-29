@@ -1,4 +1,7 @@
 # Swelling_tablet_fronts_D_k_from_MRI_T2_or_img
+
+[![DOI](https://zenodo.org/badge/549551356.svg)](https://zenodo.org/badge/latestdoi/549551356)
+
 Tool for characterizing the swelling of tablets immersed in a solution. Creates time plots and calculates eroding front's diffusion rate D and the rate of the swelling k from time series of either T<sub>2</sub>-maps or (properly contrasted, e.g. T<sub>2</sub>-weighted) MRI images in FDF (file format native for Agilent MRI scanners) or Text Image format. This software is suitable for swelling matrix tablets forming a membrane-like structure in contact with the solution in which they are immersed.
 
 ## The repository contains:
