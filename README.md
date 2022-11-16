@@ -4,6 +4,8 @@
 
 Tool for characterizing the swelling of tablets immersed in a solution. Creates time plots and calculates eroding front's diffusion rate D and the rate of the swelling k from time series of either T<sub>2</sub>-maps or (properly contrasted, e.g. T<sub>2</sub>-weighted) MRI images in FDF (file format native for Agilent MRI scanners) or Text Image format. This software is suitable for swelling matrix tablets forming a membrane-like structure in contact with the solution in which they are immersed.
 
+![Graphical abstract](GraphAbstr.jpg)
+
 ## The repository contains:
 1. Python script D_k_from_T2maps.py - the main version of the software.
 2. Jupyter notebook file notebook_D_k_from_T2maps.ipynb presenting:
@@ -18,6 +20,7 @@ Tool for characterizing the swelling of tablets immersed in a solution. Creates 
 7. Sample MRI-derived T<sub>2</sub>-maps in FDF format in MRI_FDF folder.
 8. Sample MRI-derived T<sub>2</sub>-maps in Image File format in MRI_TXTimages folder.
 9. Sample results in D_results folder.
+10. Graphical abstract GraphAbstr.jpg
 
 ## License
 The software is licensed under the MIT license. The non-software content of this project is licensed under the Creative Commons Attribution 4.0 International license. See the LICENSE file for license rights and limitations.
