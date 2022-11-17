@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Wereszczyńska
+    given-names: Beata
+    orcid: https://orcid.org/0000-0003-3013-212X
+    email: "b.e.wereszczynska@gmail.com"
+title: BeataWereszczynska/Swelling_tablet_fronts_D_k_from_MRI_T2_or_img: D_k_from_T2maps v1.0
+version: v1.0
+doi: 10.5281/zenodo.7262466
+date-released: 2022-10-29
