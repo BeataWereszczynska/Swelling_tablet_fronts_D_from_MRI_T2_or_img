@@ -4,7 +4,7 @@ authors:
   - family-names: "Wereszczyńska"
     given-names: "Beata"
     orcid: "https://orcid.org/0000-0003-3013-212X"
-title: "BeataWereszczynska/Swelling_tablet_fronts_D_k_from_MRI_T2_or_img: v1.0"
+title: "Tool for characterizing the swelling of matrix tablets forming a membrane-like structure in contact with the solution in which they are immersed"
 version: v1.0
 doi: 10.5281/zenodo.7262466
 date-released: 2022-10-29
