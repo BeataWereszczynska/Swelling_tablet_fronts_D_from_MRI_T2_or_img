@@ -29,4 +29,4 @@ The software is licensed under the **MIT license**. The non-software content of 
 **MRI_k-space-derived_details_edges** - k-space based details/edges detection in MRI images with optional k-space based denoising and detail control
 (data import suitable for Agilent FID files, three binarization methods to choose from), https://doi.org/10.5281/zenodo.7388435 (https://github.com/BeataWereszczynska/MRI_k-space-derived_details_edges).
 
-**square_img_fragments** - saving random unique square fragments of an image (located inside or outside defined bounding box) as jpg, https://github.com/BeataWereszczynska/square_img_fragments.
+**square_img_fragments** - saving random unique square fragments of an image (located inside or outside defined bounding box) as jpg (https://github.com/BeataWereszczynska/square_img_fragments).
